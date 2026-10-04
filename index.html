@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sdekin | 1C:Enterprise Developer & DevOps</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --card-bg: #161b22;
+            --border-color: #30363d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+        h1 { color: #f0f6fc; margin-bottom: 5px; }
+        .subtitle { color: var(--accent-color); font-size: 1.2rem; margin-top: 0; }
+        h2 { color: #f0f6fc; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; margin-top: 40px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 20px;
+        }
+        .card h3 { margin-top: 0; color: var(--accent-color); }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .tag {
+            background: #21262d;
+            border: 1px solid var(--border-color);
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            margin-right: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .btn {
+            display: inline-block;
+            background: #238636;
+            color: #white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .btn:hover { background: #2ea44f; }
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>sdekin</h1>
+        <p class="subtitle">1C:Enterprise Architect & DevOps Engineer</p>
+        <p>Проектирование высоконагруженных систем на платформе 1С, оптимизация производительности СУБД, внедрение CI/CD процессов и автоматизация тестирования.</p>
+    </header>
+
+    <main>
+        <h2>🛠 Технологический стек</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>1C:Предприятие</h3>
+                <p>Платформа 8.3, БСП, СКД, Управляемые формы, Оптимизация запросов, Расширения.</p>
+            </div>
+            <div class="card">
+                <h3>Инфраструктура & DevOps</h3>
+                <p>Git, 1C:EDT, Vanessa Automation, CI/CD (GitLab, Jenkins), MS SQL, PostgreSQL, Linux.</p>
+            </div>
+        </div>
+
+        <h2>📈 Мои инженерные принципы</h2>
+        <ul>
+            <li><strong>Культура кода:</strong> Никакого "говнокода" в модулях форм. Использование стандартов разработки фирмы "1С".</li>
+            <li><strong>Автоматизация:</strong> Всё, что можно автоматизировать (сборка, поставка, тестирование) — должно быть автоматизировано.</li>
+            <li><strong>Бизнес-ориентированность:</strong> Оцениваю работу не количеством строк кода, а ускорением бизнес-процессов компании.</li>
+        </ul>
+
+        <h2>💼 Ключевые кейсы</h2>
+        <div class="card" style="margin-bottom: 20px;">
+            <h3>Ускорение закрытия месяца в 3 раза</h3>
+            <p>Оптимизировал запросы и переработал архитектуру проведения документов для крупной торговой компании.</p>
+            <span class="tag">Оптимизация</span> <span class="tag">PostgreSQL</span> <span class="tag">ERP</span>
+        </div>
+        <div class="card">
+            <h3>Внедрение CI/CD для команды разработки</h3>
+            <p>Перевел команду из 5 разработчиков на работу в 1C:EDT + Git. Настроил автоматический запуск сценарных тестов через Vanessa Automation.</p>
+            <span class="tag">Git</span> <span class="tag">Vanessa Automation</span> <span class="tag">DevOps</span>
+        </div>
+
+        <h2>📬 Контакты</h2>
+        <p>Готов к обсуждению сложных и интересных проектов:</p>
+        <p>Telegram: <a href="https://t.me" target="_blank">@your_username</a> | GitHub: <a href="https://github.com/sdekin" target="_blank">github.com/sdekin</a></p>
+    </main>
+</div>
+
+</body>
+</html>
